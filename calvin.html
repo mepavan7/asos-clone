@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          #down{
+            width: 100%;
+            height: 60px;
+            border: 1px solid black;
+            display: flex;
+            background-color: black;
+            color: white;
+        }
+        #logo{
+            margin-left: 40px;
+        }
+        .men{
+            padding-right: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .women{
+            font-size: 20px;
+            padding-right: 25px;
+            cursor: pointer;
+        }
+        #search{
+            font-size: 20px;
+            width: 400%;
+            height: 50px;
+            margin-top: 5px;
+            margin-right: 40px;
+            border-radius: 50px;
+        }
+        .login{
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+            margin-right: 40px;
+            cursor: pointer;
+        }
+        .top {
+  color: #666;
+  width: 100%;
+  background-color: #f8f8f8;
+  display: block;
+}
+.topbar {
+  height: 30px;
+  margin: 0 auto;
+  max-width: 1366px;
+  box-sizing: border-box;
+  padding: 0 32px;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  float: right;
+  height: 100%;
+  display: flex;
+}
+.para {
+  display: block;
+  color: #666;
+  padding: 0 19px;
+  line-height: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.flag {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #f8f8f8;
+  box-shadow: 0 0 0 1px #ddd;
+  margin: 0 17px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+       
+        #intro{
+            width: 100%;
+            height: 200px;
+            font-family: futura-pt,sans-serif;
+            background-color: rgb(248, 248, 248);
+            /* font-size: 24px; */
+            letter-spacing: .4px;
+            line-height: 25px;
+            font-weight: 700;
+            color: inherit;
+            text-align: center;
+        }
+        #para{
+           font-family: futura-pt,sans-serif;
+           width: 80%;
+           margin: auto;
+           text-align: center;
+           font-size: 16px;
+           font-weight: 400;
+           line-height: 1.38em;
+           letter-spacing: .4px;
+           text-align: center;
+    /* overflow: hidden; */
+           text-overflow: ellipsis;
+           padding: 8px 16px;
+    /* white-space: nowrap; */
+           height: 16px;
+           color: inherit;
+        }
+        #main_heading{
+            padding-top: 10px;
+            margin-bottom: 0px;
+        }
+        #heading{
+            width: 280px;
+            height: auto;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 10px;
+            font-weight: 600;
+            text-align: center;
+            background-color: rgb(248, 248, 248);
+        }
+        #main{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 5px;
+            margin: auto;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+        #product{
+            width: 280px;
+            height: 450px;
+            margin-top: 10px;
+        }
+        #title{
+            font-family: inherit;
+            line-height: 15px;
+            font-size: 14px;
+            font-weight: 100;
+            padding-bottom: 0px;
+        }
+        #price{
+            padding-top: 0px;
+            line-height: 0px;
+            color: rgb(145, 140, 140);
+            font-size: 17px;
+            letter-spacing: .8px;
+        }
+        #icons1{
+            width: 100%;
+            height: 30px;
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #all_details1{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            gap: 10px;
+            background-color: rgb(248, 248, 248);
+        }
+        #details1{
+            width: 20%;
+            height: 100%;
+            margin-left: 40px;
+        }
+        #about1{
+            width: 100%;
+            height: 40px;
+            background-color: rgb(243, 237, 237);
+        }
+        #about1{
+            display: flex;
+        }
+        #policy{
+            padding-left: 850px;
+        }
+        #year{
+            padding-left: 10px;
+        }
+        .price_cart{
+            display: flex;
+            gap: 90px;
+            text-align: center;
+        }
+        .cartbutton{
+            width: 120px;
+            height: 30px;
+            background-color: green;
+            border: 0px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="intro">
+        <h2 id="main_heading">Men's Calvin Klein</h2>
+        <div id="para"><p>Calvin Klein has been serving up clean, casual-cool designs since 1968 – and we stan. The designer brand’s staple pieces cover everything from super-chill loungewear and classic suiting to underwear and accessories. Scroll our Calvin Klein at ASOS edit for iconic jeans, T-shirts, sweatshirts and those fresh CK briefs and boxers we all know and love. And for your on-duty days, check out its smart shirts and tailored separates, best paired with slick outfit add-ons like logo wallets, bags and belts.</p></div>
+    </div>
+    <div id="main">
+        <div id="product">
+            <img src="https://images.asos-media.com/products/calvin-klein-3-pack-cotton-stretch-trunks-in-black/200940987-1-black?$n_320w$&wid=317&fit=constrain" alt="underwear" width="100%">
+            <p id="title">Calvin Klein 3 pack cotton stretch trunks in black</p>
+            <div class="price_cart">
+            <h5 id="price">$40.00</h5>
+            <button class="cartbutton">ADD TO CART</button>
+        </div>
+        </div>
+        <div id="product">
+            <img src="https://images.asos-media.com/products/calvin-klein-jeans-big-tall-two-tone-monogram-logo-t-shirt-in-black/201571277-1-black?$n_320w$&wid=317&fit=constrain" alt="T-shirts" width="100%">
+            <p id="title">Calvin Klein Jeans Big & Tall two tone monogram logo t-shirt in black</p>
+            <div class="price_cart">
+            <h5 id="price">$35.00</h5>
+            <button class="cartbutton">ADD TO CART</button>
+        </div>
+        </div>
+        <div id="product">
+            <img src="https://images.asos-media.com/products/calvin-klein-jeans-big-tall-monogram-logo-t-shirt-in-light-blue/201568567-1-blue?$n_320w$&wid=317&fit=constrain" alt="T-shirts" width="100%">
+            <p id="title">Calvin Klein Jeans Big & Tall monogram logo t-shirt in light blue</p>
+            <div class="price_cart">
+            <h5 id="price">$35.00</h5>
+            <button class="cartbutton">ADD TO CART</button>
+        </div>
+        </div>
+        <div id="product">
+            <img src="https://images.asos-media.com/products/calvin-klein-exclusive-to-asos-t-shirt-with-neck-branding-detail-in-cream/201382920-1-cream?$n_320w$&wid=317&fit=constrain" alt="T-shirts" width="100%">
+            <p id="title">Calvin Klein exclusive to ASOS t-shirt with neck branding detail in cream</p>
+            <div class="price_cart">
+            <h5 id="price">$40.00</h5>
+            <button class="cartbutton">ADD TO CART</button>
+        </div>
+        </div>
+        <div id="product">
+            <img src="https://images.asos-media.com/products/calvin-klein-exclusive-to-asos-centre-logo-t-shirt-in-teal/201382984-1-teal?$n_320w$&wid=317&fit=constrain" alt="T-shirts" width="100%">
+            <p id="title">Calvin Klein exclusive to ASOS centre logo t-shirt in teal</p>
+            <div class="price_cart">
+            <h5 id="price">$40.00</h5>
+            <button class="cartbutton">ADD TO CART</button>
+        </div>
+        </div>
+        <div id="product">
+            <img src="https://images.asos-media.com/products/calvin-klein-exclusive-to-asos-centre-logo-sweatshirt-in-lilac/201383207-1-lilac?$n_320w$&wid=317&fit=constrain" alt="T-shirts" width="100%">
+            <p id="title">Calvin Klein exclusive to ASOS centre logo sweatshirt in lilac</p>
+            <div class="price_cart">
+            <h5 id="price">$85.00</h5>
+            <button class="cartbutton">ADD TO CART</button>
+        </div>
+        </div>
+        <div id="product">
+            <img src="https://images.asos-media.com/products/calvin-klein-exclusive-to-asos-centre-logo-hoodie-in-teal/201383188-1-teal?$n_320w$&wid=317&fit=constrain" alt="adidas T-shirts" width="100%">
+            <p id="title">Calvin Klein exclusive to ASOS centre logo hoodie in teal</p>
+            <div class="price_cart">
+            <h5 id="price">$90.00</h5>
+            <button class="cartbutton">ADD TO CART</button>
+        </div>
+        </div>
+        <div id="product">
+            <img src="https://images.asos-media.com/products/calvin-klein-exclusive-to-asos-centre-logo-t-shirt-in-lilac/201383029-1-lilac?$n_320w$&wid=317&fit=constrain" alt="adidas T-shirts" width="100%">
+            <p id="title">Calvin Klein exclusive to ASOS centre logo t-shirt in lilac</p>
+            <div class="price_cart">
+            <h5 id="price">$40.00</h5>
+            <button class="cartbutton">ADD TO CART</button>
+        </div>
+        </div>
+    </div>
+    <hr>
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+    import {navbar} from "./components/navbar.js";
+    var nav = document.querySelector("#navbar");
+    nav.innerHTML = navbar();
+    import {footer} from "./components/footer.js";
+    var foot = document.querySelector("#footer");
+    foot.innerHTML = footer();
+</script>
+<script>
+
+    let cart = localStorage.getItem("cart");
+      if (!cart) {
+        // if cart is null/undefined;
+        cart = []; // initialize it with empty array;
+        localStorage.setItem("cart", JSON.stringify(cart));
+     }
+
+
+    document.getElementById("addcart").addEventListener("click",function(){
+
+        let cart = JSON.parse(localStorage.getItem("cart"));
+
+        var img = document.getElementById("productimg").src;
+        cart.push(img)
+        var title = document.getElementById("title").innerHTML;
+        cart.push(title)
+        var price = document.getElementById("price").innerHTML;
+        cart.push(price);
+        
+        localStorage.setItem("cart", JSON.stringify(cart));
+     })
+
+</script>
